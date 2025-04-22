@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>انضم إلينا</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="nav-item"><a href="./index.html">الرئيسية</a></li>
+          <li class="nav-item"><a href="./discover.html">استكشاف</a></li>
+          <li class="nav-item"><a href="./join.html">انضم إلينا</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>انضم إلينا</h1>
+        <p>
+          إذا كنت مهتمًا بالفضاء وترغب في الانضمام إلينا، الرجاء تعبئة النموذج
+          التالي:
+        </p>
+
+        <form action="" method="POST">
+          <label for="fullname">الاسم الكامل:</label>
+          <input type="text" id="fullname" name="fullname" required />
+
+          <label for="age">العمر:</label>
+          <input type="number" id="age" name="age" required />
+
+          <label>الجنس:</label><br />
+          <input type="radio" id="male" name="gender" value="ذكر" required />
+          <label for="male">ذكر</label>
+          <input type="radio" id="female" name="gender" value="أنثى" />
+          <label for="female">أنثى</label>
+
+          <br /><br />
+
+          <label>هل ترغب في أن تكون رائد فضاء؟</label><br />
+          <input type="radio" id="yes" name="astronaut" value="نعم" required />
+          <label for="yes">نعم</label>
+          <input type="radio" id="no" name="astronaut" value="لا" />
+          <label for="no">لا</label>
+
+          <br /><br />
+
+          <label for="interest">اختر مجال الاهتمام:</label>
+          <select id="interest" name="interest" required>
+            <option value="">-- اختر --</option>
+            <option value="الفضاء">الفضاء</option>
+            <option value="الفيزياء">الفيزياء</option>
+            <option value="الكواكب">الكواكب</option>
+            <option value="التقنيات">التقنيات</option>
+          </select>
+
+          <br /><br />
+
+          <label for="why">لماذا ترغب في الانضمام؟</label><br />
+          <textarea
+            id="why"
+            name="why"
+            rows="4"
+            cols="50"
+            placeholder="اكتب هنا..."
+            required
+          ></textarea>
+
+          <br /><br />
+
+          <input type="submit" value="إرسال" />
+        </form>
+      </section>
+
+      <section>
+        <h2>تواصل معنا</h2>
+        <p>تابعنا على حسابات التواصل الاجتماعي:</p>
+        <ul style="list-style: none; display: inline-block">
+          <li>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >تويتر</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >فيسبوك</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >انستغرام</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 رحلة إلى الكون. جميع الحقوق محفوظة.</p>
+    </footer>
+  </body>
+</html>
